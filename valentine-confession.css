@@ -189,4 +189,29 @@ body {
 .openedHer {
 	top: 85%;
 	transform: translate(-50%, 0);
+
+}
+
+.audio-toggle {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 999px;
+  background: white;
+  box-shadow: 0 6px 16px rgba(0,0,0,.2);
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+.audio-toggle:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.24);
+}
+.audio-toggle:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(0,0,0,.18);
 }
