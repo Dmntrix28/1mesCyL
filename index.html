@@ -43,6 +43,14 @@
       </div>
     </div>
 
+
+    <!-- Música de fondo (autoplay silenciado por políticas de navegador) -->
+    <audio id="bgm" src="./musica.mp3" preload="auto" loop autoplay muted playsinline></audio>
+
+    <!-- Botón de mute/unmute -->
+    <button class="audio-toggle" id="audioToggle" aria-pressed="true" title="Silenciar/activar">🔇</button>
+
+    
     <!-- JS (orden correcto) -->
     <!-- 1) jQuery core -->
     <script src="./jquery2.1.js"></script>
@@ -52,3 +60,4 @@
     <script defer src="./valentine-confession.js"></script>
   </body>
 </html>
+
